@@ -594,16 +594,13 @@ Copyright © 2019 Basecamp, LLC
     };
     return Multimap;
   }();
-  var __extends = window && window.__extends || function() {
-    var extendStatics = function(d, b) {
-      extendStatics = Object.setPrototypeOf || {
-        __proto__: []
-      } instanceof Array && function(d, b) {
-        d.__proto__ = b;
-      } || function(d, b) {
-        for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-      };
-      return extendStatics(d, b);
+  var __extends = undefined && undefined.__extends || function() {
+    var extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function(d, b) {
+      d.__proto__ = b;
+    } || function(d, b) {
+      for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     };
     return function(d, b) {
       extendStatics(d, b);
@@ -1008,16 +1005,13 @@ Copyright © 2019 Basecamp, LLC
     };
     return Context;
   }();
-  var __extends$1 = window && window.__extends || function() {
-    var extendStatics = function(d, b) {
-      extendStatics = Object.setPrototypeOf || {
-        __proto__: []
-      } instanceof Array && function(d, b) {
-        d.__proto__ = b;
-      } || function(d, b) {
-        for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-      };
-      return extendStatics(d, b);
+  var __extends$1 = undefined && undefined.__extends || function() {
+    var extendStatics = Object.setPrototypeOf || {
+      __proto__: []
+    } instanceof Array && function(d, b) {
+      d.__proto__ = b;
+    } || function(d, b) {
+      for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     };
     return function(d, b) {
       extendStatics(d, b);
@@ -1433,7 +1427,7 @@ Copyright © 2019 Basecamp, LLC
     actionAttribute: "data-action",
     targetAttribute: "data-target"
   };
-  var __awaiter = window && window.__awaiter || function(thisArg, _arguments, P, generator) {
+  var __awaiter = undefined && undefined.__awaiter || function(thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function(resolve, reject) {
       function fulfilled(value) {
         try {
@@ -1457,7 +1451,7 @@ Copyright © 2019 Basecamp, LLC
       step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
   };
-  var __generator = window && window.__generator || function(thisArg, body) {
+  var __generator = undefined && undefined.__generator || function(thisArg, body) {
     var _ = {
       label: 0,
       sent: function() {
@@ -1482,9 +1476,8 @@ Copyright © 2019 Basecamp, LLC
     function step(op) {
       if (f) throw new TypeError("Generator is already executing.");
       while (_) try {
-        if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 
-        0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-        if (y = 0, t) op = [ op[0] & 2, t.value ];
+        if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+        if (y = 0, t) op = [ 0, t.value ];
         switch (op[0]) {
          case 0:
          case 1:
