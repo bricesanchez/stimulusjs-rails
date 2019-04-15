@@ -9,6 +9,7 @@ Rails 4.2+ asset-pipeline gem to provide Stimulus.js
 
 ## Package Versions
 
+- Stimulus 1.1.1
 - Stimulus 1.0.1
 
 ## Setup
@@ -16,7 +17,7 @@ Rails 4.2+ asset-pipeline gem to provide Stimulus.js
 Have in your `Gemfile`:
 
 ```ruby
-gem 'stimulusjs-rails'
+gem 'stimulusjs-rails', '~> 1.1.1'
 ```
 
 And in your `application.js` manifest:
